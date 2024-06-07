@@ -19,7 +19,7 @@ import os
 
 
 def predict(namkinhnghiem):    # load mô hình
-    loaded_model = pickle.load(open(r'C:\Users\ADMIN\Documents\Streamlit\model_luong.sav','rb'))
+    loaded_model = pickle.load(open(r'Đường dẫn file.sav','rb'))
     row=[]
     row.append(namkinhnghiem)
 
